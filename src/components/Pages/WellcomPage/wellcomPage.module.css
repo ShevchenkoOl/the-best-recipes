@@ -1,0 +1,76 @@
+.container {
+  background-image: url('../../../assets/welcome-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 68px;
+  height: 68px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: 544px;
+}
+
+.title {
+  font: var(--h1-font);
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--primary-white-color);
+  margin-top: 44px;
+  margin-bottom: 10px;
+}
+
+.mainText {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--primary-white-color);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 18px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .section {
+    max-width: 305px;
+  }
+  .mainText {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .buttonContainer {
+    gap: 12px;
+  }
+  .logo {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section {
+    max-width: 500px;
+  }
+}

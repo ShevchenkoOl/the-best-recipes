@@ -1,0 +1,79 @@
+.btn {
+  font: var(--btn-font);
+  color: var(--primary-white-color);
+  border-radius: 24px 44px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex; /* Используйте inline-flex для выравнивания элементов */
+  justify-content: center; /* Центрируем текст по горизонтали */
+  align-items: center;
+}
+
+.btnRegistr {
+  width: 184px;
+  height: 67px;
+  background-color: var(--light-green-color);
+  border: 1px solid green;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btnSingIn {
+  width: 141px;
+  height: 67px;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btnRegistr:hover,
+.btnRegistr:focus {
+  background-color: var(--primary-black-color);
+  color: var(--primary-white-color);
+  border: 1px solid black;
+}
+
+.btnSingIn:hover,
+.btnSingIn:focus {
+  border: 1px solid var(--light-green-color);
+  color: var(--light-green-color);
+}
+
+.singUp {
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-green-color);
+  border-radius: 6px;
+  /* margin-top: 26px; */
+  line-height: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.singUp:hover,
+.singUp:focus {
+  background-color: var(--primary-black-color);
+  color: var(--primary-white-color);
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font: var(--btn-font-mobile);
+  }
+
+  .btnRegistr {
+    width: 135px;
+    height: 45px;
+  }
+
+  .btnSingIn {
+    width: 95px;
+    height: 45px;
+  }
+
+  .singUp {
+    width: 279px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,98 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon {
+  font-size: 20px;
+  color: var(--primary-white-color);
+  position: absolute;
+  left: 15px;
+  pointer-events: none;
+}
+
+.input {
+  width: 400px;
+  height: 59px;
+  border-radius: 6px;
+  padding-left: 50px;
+  background-color: transparent;
+  font-size: 18px;
+  color: var(--primary-white-color);
+  border: 1px solid var(--primary-white-color);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.input::placeholder {
+  color: var(--primary-white-color);
+  font-size: 18px;
+}
+
+.input:hover,
+.input:hover{
+  border: 1px solid var(--primary-white-color);
+}
+
+.input {
+  border: 1px solid gray;
+}
+
+.error {
+  border-color: red;
+}
+
+.success {
+  border-color: green;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+.errorIcon {
+  color: red;
+}
+
+.successIcon {
+  color: green;
+}
+
+.warningIcon {
+  color: yellow;
+}
+
+.iconPosition {
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+  font-size: 20px;
+}
+
+.errorIcon .RxCrossCircled {
+  color: red;
+}
+
+.successIcon .FcOk {
+  color: green;
+}
+
+@media (max-width: 769px) {
+  .input {
+    width: 279px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 14px;
+  }
+
+  .input::placeholder {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+  .errorIconPosition {
+    font-size: 16px;
+  }
+}
