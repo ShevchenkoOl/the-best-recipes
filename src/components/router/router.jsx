@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import WellcomPage from "../Pages/WellcomPage/WellcomPage";
+import RegisterPage from "../Pages/RegisterPage/RegisterPage";
 import ErrorComponent from "./ErrorComponent";
 
 const wellcomLoader = () => ({
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     loader: wellcomLoader,
     errorElement: <ErrorComponent />,
   },
+  {
+    path: "/register",
+    element: <RegistrPage />
+  }
 ]);
 
 export default router;
