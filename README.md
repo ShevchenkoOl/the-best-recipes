@@ -11,7 +11,7 @@ This project was built using [React](https://react.dev/) and the following libra
 
 3. Install the basic components of the project using the `npm install` command.
 
-4. Start the development mode by running the `npm start` command.
+4. Start the development mode by running the `npm run dev` command.
 
 5. Go to the browser to the address [http://localhost:3000](http://localhost:3000).
  This side will be automatically re-enabled after saving changes to the project files.
