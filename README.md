@@ -4,7 +4,7 @@ This project was built using [React](https://react.dev/) and the following libra
 
 ## How to use the repository
 
-1. Clone the repository: `git clone https://github.com/SevchenkoOl/yummy.git`
+1. Clone the repository: `git clone https://github.com/ShevchenkoOl/the-best-recipes.git`
 
 2. Make sure you have the LTS version of Node.js installed on your computer.
 [Download and install](https://nodejs.org/en/) as necessary.
