@@ -1,8 +1,21 @@
-# React + Vite
+# The Best Recipes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built using [React](https://react.dev/) and the following libraries: [react-router](https://reactrouter.com/en/main), [react-icons](https://react-icons.github.io/react-icons/),
 
-Currently, two official plugins are available:
+## How to use the repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository: `git clone https://github.com/SevchenkoOl/yummy.git`
+
+2. Make sure you have the LTS version of Node.js installed on your computer.
+[Download and install](https://nodejs.org/en/) as necessary.
+
+3. Install the basic components of the project using the `npm install` command.
+
+4. Start the development mode by running the `npm start` command.
+
+5. Go to the browser to the address [http://localhost:3000](http://localhost:3000).
+ This side will be automatically re-enabled after saving changes to the project files.
+
+## Author
+This repository was created and maintained by [Oleksii Shevchenko](https://shevchenkool.github.io/portfolio/). Questions, suggestions and feedback can be sent to [email](uzlabini@gmail.com) or [linkedin profile](linkedin.com/in/oleksii-shevchenko-535ab61b8).
+If you have any questions or suggestions, feel free to create an issue or submit a pull request.
