@@ -17,5 +17,5 @@ This project was built using [React](https://react.dev/) and the following libra
  This side will be automatically re-enabled after saving changes to the project files.
 
 ## Author
-This repository was created and maintained by [Oleksii Shevchenko](https://shevchenkool.github.io/portfolio/). Questions, suggestions and feedback can be sent to [email](uzlabini@gmail.com) or [linkedin profile](linkedin.com/in/oleksii-shevchenko-535ab61b8).
+This repository was created and maintained by [Oleksii Shevchenko](https://shevchenkool.github.io/portfolio/). Questions, suggestions and feedback can be sent to [email](uzlabini@gmail.com) or [linkedin profile](https://www.linkedin.com/in/oleksii-shevchenko-535ab61b8).
 If you have any questions or suggestions, feel free to create an issue or submit a pull request.
