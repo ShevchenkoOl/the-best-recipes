@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import WellcomPage from "../Pages/WellcomPage/WellcomPage";
-import RegisterPage from "../Pages/RegisterPage/RegisterPage";
 import ErrorComponent from "./ErrorComponent";
+import RegistrPage from "../Pages/RegisterPage/RegisterPage";
+import SigninPage from "../Pages/SigninPage/SigninPage";
+import MainPage from "../Pages/MainPage/MainPage";
 
 const wellcomLoader = () => ({
   title: "Welcome to the app!",
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegistrPage />
+  },
+  {
+    path: "/signin",
+    element: <SigninPage />
+  },
+  {
+    path: "/mainpage",
+    element: <MainPage />
   }
 ]);
 

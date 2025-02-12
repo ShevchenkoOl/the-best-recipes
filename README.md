@@ -2,6 +2,8 @@
 
 This project was built using [React](https://react.dev/) and the following libraries: [react-router](https://reactrouter.com/en/main), [react-icons](https://react-icons.github.io/react-icons/),
 
+[react-toastify](https://www.npmjs.com/package/react-toastify)
+
 ## How to use the repository
 
 1. Clone the repository: `git clone https://github.com/ShevchenkoOl/the-best-recipes.git`

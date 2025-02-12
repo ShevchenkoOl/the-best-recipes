@@ -1,9 +1,9 @@
 import style from './signinPage.module.css';
 import { MdMailOutline } from 'react-icons/md';
 import { FiLock } from 'react-icons/fi';
-import Button from 'components/Ul/Button/Button';
+import Button from '../..//Ul/Button/Button';
 import { Link } from 'react-router-dom';
-import Input from 'components/Ul/Input/Input';
+import Input from '../../Ul/Input/Input';
 
 const SigninPage = () => {
   const validateEmail = inputValue => {
